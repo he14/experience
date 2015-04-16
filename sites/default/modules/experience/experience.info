@@ -1,0 +1,5 @@
+name = eXperience Online
+description = Module for Website experience-online.ch
+core = 7.x
+package = eXperience
+php = 5.4
