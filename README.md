@@ -20,6 +20,18 @@ Eine neue Datenbank mit dem Namen "experience" erstellen.
 
 Mit Sequel Pro (Mac) oder MySQL Workbench (Windows) den aktuellsten DB-Dump im Verzeichnis "/experience/_dbdump" importieren.
 
-## Drupal Konfigurationsdatei anpassen
+## Konfigurationsdatei kopieren und anpassen
 
-folgt.
+Im Verzeichnis "/experience/sites/default" die Datei "experience.settings.php" kopieren nach "settings.php" und die folgenden Einstellungen entsprechend Deiner Umgebung anpassen:
+
+    'database' => 'experience-online.ch',
+    'username' => 'root',
+    'password' => 'root',
+
+## Website aufrufen
+
+Im Browser kann die Website unter MAMP nun wie folgt aufgerufen werden:
+
+    http://localhost:8888/experience/
+    
+
