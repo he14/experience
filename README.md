@@ -2,13 +2,13 @@
 
 Diese Anleitung beschreibt, wie das Drupal-Projekt eXperience Online auf einem lokalen Rechner installiert werden kann.
 
-Als Voraussetzungen werden PHP, ein Webserver und eine MySQL-Datenbank benötigt. Mit MAMP unter MAC oder XAMPP unter Window kann eine solche Umgebung leicht eingerichtet werden.
+Als Voraussetzungen werden PHP, ein Webserver und eine MySQL-Datenbank benötigt. Mit MAMP unter MAC oder XAMPP unter Windows kann eine solche Umgebung leicht eingerichtet werden.
 
 ## Umgebung einrichten
 
 ### Git-Projekt klonen
 
-Um das Projekt zu klonen, kann man im Termin die folgenden Gefehle ausführen:
+Um das Projekt zu klonen, kann man im Terminal die folgenden Befehle ausführen:
 
     git clone https://github.com/hf-ict-he14/experience.git
 
@@ -58,3 +58,9 @@ das Verhalten der Website.
 Seite, ein Node (=Artikel), aber auch einzelne Felder "übersteuer" werden. Somit hat man 
 die Kontrolle über den generierten HTML-Code.
 
+### Admin-Login
+
+Der Login in die Administration ist:
+
+Benutzer: he14a
+Passwort: eXperienceNow
