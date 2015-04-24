@@ -8,7 +8,7 @@ Als Voraussetzungen werden PHP, ein Webserver und eine MySQL-Datenbank benötigt
 
 ### Git-Projekt klonen
 
-Um das Projekt zu klonen, kann man im Terminal die folgenden Befehle ausführen:
+Führe im Terminal die folgenden Befehle aus, um das Projekt zu klonen:
 
     git clone https://github.com/hf-ict-he14/experience.git
 
@@ -16,15 +16,15 @@ Im aktuellen Verzeichnis wird ein Unterverzeichnis namens "experience" erstellt.
 
 ### Datenbank erstellen
 
-Eine neue Datenbank mit dem Namen "experience" erstellen.
+Erstelle eine neue Datenbank mit dem Namen "experience".
 
 ### DB-Dump importieren
 
-Mit Sequel Pro (Mac) oder MySQL Workbench (Windows) den aktuellsten DB-Dump im Verzeichnis "/experience/_dbdump" importieren.
+Importiere mit Sequel Pro (Mac) oder MySQL Workbench (Windows) den aktuellsten DB-Dump aus dem Verzeichnis "/experience/_dbdump".
 
 ### Konfigurationsdatei kopieren und anpassen
 
-Im Verzeichnis "/experience/sites/default" die Datei "experience.settings.php" kopieren nach "settings.php" und die folgenden Einstellungen entsprechend Deiner Umgebung anpassen:
+Kopiere im Verzeichnis "/experience/sites/default" die Datei "experience.settings.php" und benenne sie um in "settings.php". Passe die folgenden Einstellungen entsprechend Deiner Umgebung an:
 
     'database' => 'experience-online.ch',
     'username' => 'root',
@@ -32,7 +32,7 @@ Im Verzeichnis "/experience/sites/default" die Datei "experience.settings.php" k
 
 ### Website aufrufen
 
-Im Browser kann die Website unter MAMP nun wie folgt aufgerufen werden:
+Die Website kannst Du nun im Browser (unter MAMP) wie folgt aufrufen:
 
     http://localhost:8888/experience/
     
