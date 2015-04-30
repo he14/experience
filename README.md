@@ -62,5 +62,6 @@ die Kontrolle über den generierten HTML-Code.
 
 Der Login in die Administration ist:
 
-Benutzer: he14a
-Passwort: eXperienceNow
+Benutzer: he14a  
+Passwort: eXperienceNow  
+
