@@ -16,6 +16,8 @@ Im aktuellen Verzeichnis wird ein Unterverzeichnis namens "experience" erstellt.
 
 ### Datenbank erstellen
 
+### TOBY
+
 Erstelle eine neue Datenbank mit dem Namen "experience".
 
 ### DB-Dump importieren
@@ -35,7 +37,7 @@ Kopiere im Verzeichnis "/experience/sites/default" die Datei "experience.setting
 Die Website kannst Du nun im Browser (unter MAMP) wie folgt aufrufen:
 
     http://localhost:8888/experience/
-    
+
 ### Besitzer anpassen
 
 Unter Umständen gibt es Probleme mit Berechtigungen. Diese können wie folgt behoben werden.
@@ -54,8 +56,8 @@ Verzeichnis dürfen nicht angepasst werden.
 */sites/all/themes/*  
 In diesem Verzeichnis ist das Theme "experience" abgelegt. Dieses steuert das Aussehen und
 das Verhalten der Website.
-Über eine genau definierte Namenskonvention kann das ganze Template, eine einzelne 
-Seite, ein Node (=Artikel), aber auch einzelne Felder "übersteuer" werden. Somit hat man 
+Über eine genau definierte Namenskonvention kann das ganze Template, eine einzelne
+Seite, ein Node (=Artikel), aber auch einzelne Felder "übersteuer" werden. Somit hat man
 die Kontrolle über den generierten HTML-Code.
 
 ### Admin-Login
@@ -64,4 +66,3 @@ Der Login in die Administration ist:
 
 Benutzer: he14a  
 Passwort: eXperienceNow  
-
