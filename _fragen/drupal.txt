@@ -1,0 +1,10 @@
+Inhalte bearbeiten
+
+- Brauchen wir einen WYSIWYG-Editor oder reicht ein Markup-Editor (Textile, Markdown)?
+
+
+Mehrsprachigkeit
+
+- Wo werden Sprachen eingestellt (Buch S. 332)?
+- Entity oder Content Translation? (https://www.lullabot.com/blog/article/localized-and-multi-lingual-content-drupal-7)
+- 

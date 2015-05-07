@@ -1,0 +1,55 @@
+<?php
+
+/**
+ * Implements hook_schema().
+ */
+function experience_schema()
+{
+    $schema['experience_casestudy'] = array(
+        'description' => 'Stores case studies.',
+        'fields' => array(
+            'ecid' => array(
+                'type' => 'serial',
+                'unsigned' => TRUE,
+                'not null' => TRUE,
+                'description' => 'Primary Key: Unique term ID.',
+            ),
+            'vid' => array(
+                'type' => 'int',
+                'unsigned' => TRUE,
+                'not null' => TRUE,
+                'default' => 0,
+                'description' => 'The vid of the vocabulary to which the term is assigned.',
+            ),
+            'title' => array(
+                'type' => 'varchar',
+                'length' => 255,
+                'not null' => TRUE,
+                'default' => '',
+                'description' => 'The term name.',
+                'translatable' => TRUE,
+            ),
+            'description' => array(
+                'type' => 'text',
+                'not null' => FALSE,
+                'size' => 'big',
+                'description' => 'A description of the term.',
+                'translatable' => TRUE,
+            ),
+            'created' => array(
+                'description' => 'The Unix timestamp when the case study was created.',
+                'type' => 'int',
+                'not null' => TRUE,
+                'default' => 0,
+            ),
+            'changed' => array(
+                'description' => 'The Unix timestamp when the case study was most recently saved.',
+                'type' => 'int',
+                'not null' => TRUE,
+                'default' => 0,
+            ),
+        ),
+        'primary key' => array('tid'),
+    );
+    return $schema;
+}
