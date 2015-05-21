@@ -217,7 +217,7 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'experience-online.ch',
+      'database' => 'experience',
       'username' => 'root',
       'password' => 'root',
       'host' => 'localhost',
