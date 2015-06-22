@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/plattformen/experience-online/teama/sites/all/libraries/ckeditor/';

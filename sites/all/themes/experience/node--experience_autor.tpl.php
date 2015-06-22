@@ -1,6 +1,6 @@
 <?php 
 
-echo '<div style="border:1px solid black;background:#fff;padding:1em">';
+echo '<div class="fallstudie-autoren">';
 
 $name = render($content['field_vorname']) . ' ' . render($content['field_nachname']);
 $email = render($content['field_email']);

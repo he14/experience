@@ -2,11 +2,20 @@
 
 	<div id="head">
 
-		<header>
-			<div class="width">
-				<h1><a href="/">eXperi<span>ence</span></a></h1>
+		<header>		
+			<div class="width">			
+				<div style="float:right;margin-bottom:1em">
+					<form action="/plattformen/experience-online/teama/de/fallstudien" method="get">				
+						<input title="Geben Sie die Begriffe ein, nach denen Sie suchen." type="text" id="edit-keys" name="keys" value="" size="15" maxlength="128" class="form-text">
+						<input type="submit" value="Suchen">
+					</form>
+				</div>				
+				<h1><a href="/plattformen/experience-online/teama/">eXperi<span>ence</span></a></h1>
 				<h2>online</h2>
-			</div>
+			</div>		
+			<?php if ($page['header']): ?>
+			  <?php print render($page['header']); ?>
+			<?php endif; ?>
 		</header>
 
 		<nav>
@@ -29,8 +38,7 @@
 
 	<footer>
 		<div class="footer-bottom">
-			<?php print render($page['footer']); ?>
-			<p>&copy; experience-online.ch 2015 by <a target="_blank" href="http://www.hf-ict.ch">hf-ict</a></p>
+				&copy; experience-online.ch 2015 by <a target="_blank" href="http://www.hf-ict.ch">hf-ict</a><span>|</span><a style="margin-left:0.5em" href="/plattformen/experience-online/teama/login">Login</a><span>|</span><?php print render($page['footer']); ?>
 		</div>
 	</footer>
 

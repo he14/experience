@@ -174,6 +174,7 @@ h1 {
 	color: #000;
 	font-size: 35px;
 	font-family: 'Pontano Sans', Arial, sans-serif;
+	margin-bottom:0.5em;
 }
 
 h2 {
@@ -458,12 +459,12 @@ footer {
 	background: #222;
 	/*border-top: 10px solid #00A0EB;*/
 	border-top: 10px solid #ffc726;
-	position: fixed;
+	/*position: fixed;*/
 	width: 100%;
 	bottom: 0;
 }
 
-footer p {
+footer .footer-bottom {
 	text-align: left;
 	color: #ccc;
 	font-size: 12px;
@@ -471,7 +472,7 @@ footer p {
 	padding: 0;
 }
 
-footer p a {
+footer .footer-bottom a {
 	color: #ccc;
 	font-weight: bold;
 }
@@ -490,9 +491,6 @@ footer .footer-content ul {
 
 footer .footer-content li {
 	padding: 5px 5px;
-}
-
-footer .footer-content li a, footer .footer-content h4 {
 }
 
 footer .footer-content li a {
@@ -528,4 +526,96 @@ footer .footer-bottom p {
 
 footer .footer-bottom p, footer .footer-bottom p a {
 	color: #666;
+}
+
+/* TB */
+.footer-bottom div {
+	display:inline;
+}
+#block-menu-menu-footer-men- h2,
+div.footer-bottom div.contextual-links-wrapper {
+	display:none;
+}
+#block-menu-menu-footer-men- div.content,
+#block-menu-menu-footer-men- div.content ul,
+#block-menu-menu-footer-men- div.content li {
+	display:inline;
+	margin:0;
+}
+.footer-bottom span,
+#block-menu-menu-footer-men- div.content li {
+	margin-left:0.5em;
+}
+
+/* Language selector */
+#block-locale-language {
+	text-align:right;
+}
+ul.language-switcher-locale-url {
+	margin-bottom:0;
+}
+ul.language-switcher-locale-url li {
+	display:inline;
+	margin-left:0.25em;
+}
+
+.field-name-field-description .field-label {
+	display:none;
+}
+
+.view-fallstudien th, 
+.view-fallstudien td {
+	background-color:#fff;
+}
+.view-fallstudien th a {
+	color:#222;
+}
+
+
+.page-node-19 article:last-of-type,
+.page-node-27 article:last-of-type,
+.page-node-28 article:last-of-type {
+	margin-bottom:0;
+	padding-bottom:0;
+	padding-left:0;
+}
+
+hr {
+	margin:1.4em 0;
+	border: 1px solid #ddd;
+}
+
+
+ul.tabs {
+	margin:0 0 20px 0;
+	border-bottom:6px solid #ddd;	
+	padding-bottom:0.5em;
+}
+ul.tabs li {
+	display: inline;
+	list-style-type: none;
+	margin:0;
+	padding: 0.5em 1em;
+	background-color:#eee;
+}
+ul.tabs li.active {
+	background-color:#ddd;
+}
+ul.tabs li a {
+	text-decoration:none;
+	color:#999;
+	font-size:1.1em;
+}
+ul.tabs li.active a {
+	color:#222;
+}
+
+
+/* Tabellenlayout der alten Website */
+
+table.t1 {
+	margin-bottom:1.5em;
+}
+table.t1  td {
+	background-color:#eee;
 }
